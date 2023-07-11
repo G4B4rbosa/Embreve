@@ -1,0 +1,42 @@
+@media (max-width: 1120px){
+    *{
+        margin: 0px;
+    }
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-jogos{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-jogos .jogos{
+        margin-top: 37px;
+    }
+
+    .selecao-de-jogos .jogos .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-jogos .lista-de-jogos{
+        gap: 9px
+    }
+
+    .selecao-de-jogos .jogo img{
+        width: 80px;
+    }
+
+    .jogo-selecionado .jogo-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .jogo-selecionado .descricao-jogo{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+
+}

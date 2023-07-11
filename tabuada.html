@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Multiplicação</title>
+    <link rel="stylesheet" href="./src/css/estilostabuada.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap">
+    <link rel="stylesheet" href="src/css/responsivotabuada.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+
+<body>
+    <form>
+        <header class="cabecalho">
+            <h2>Jogo Da Multiplicação</h2>
+        </header>
+        <main class="principal">
+            <div class="valores">
+                <input type="text" name="valor1" id="txtValor1" readonly>
+                x
+                <input type="text" name="valor2" id="txtValor2" readonly>
+            </div>
+
+            <div class="resposta">
+                <input type="text" id="txtResposta" placeholder="Digite o resultado">
+            </div>
+
+            <div class="pontos">
+                <p>
+                    Acertos
+                <div id="divAcertos">
+                    0
+                </div>
+                </p>
+
+                <p>
+                    Erros
+                <div id="divErros">
+                    0
+                </div>
+                </p>
+
+            </div>
+
+    </form>
+
+    </main>
+
+    <footer>
+        </div>
+        <div class="botoes">
+            <button class="botao" onclick=Sortear()>Começar</button>
+        </div>
+    </footer>
+
+    <script src="./src/js/indextabuada.js"></script>
+
+</body>
+
+</html>
